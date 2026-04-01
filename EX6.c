@@ -90,3 +90,24 @@ int main() {
     getch();
     return 0;
 }
+
+OUTPUT:
+Enter number of processes: 3
+Enter number of resources: 3
+
+Enter Allocation Matrix:
+0 1 0
+2 0 0
+3 0 2
+
+Enter Max Matrix:
+7 5 3
+3 2 2
+9 0 2
+
+Enter Available Resources:
+3 3 2
+
+System is in SAFE state.
+Safe sequence:
+P1 P0 P2
