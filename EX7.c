@@ -105,3 +105,25 @@ int main() {
     getch();
     return 0;
 }
+
+
+OUTPUT:
+Enter number of processes: 3
+Enter number of resources: 2
+
+Enter Allocation Matrix:
+1 0
+0 1
+1 1
+
+Enter Max Matrix:
+2 1
+1 2
+2 2
+
+Enter Available Resources:
+0 0
+
+DEADLOCK detected!
+Processes in deadlock:
+P0 P1 P2
