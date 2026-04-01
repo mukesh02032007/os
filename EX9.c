@@ -36,3 +36,17 @@ int main() {
     getch();
     return 0;
 }
+
+
+OUTPUT:
+Enter number of pages: 3
+
+Enter page table (frame numbers):
+Page 0: 5
+Page 1: 2
+Page 2: 8
+
+Enter page number: 1
+Enter offset: 20
+
+Physical Address = 220
